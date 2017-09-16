@@ -1,5 +1,4 @@
 from selenium import webdriver
-from baidu_page import BaiduPage
 import unittest
 
 class BaiDu(unittest.TestCase):
@@ -10,9 +9,8 @@ class BaiDu(unittest.TestCase):
 		self.driver.get("http://www.baidu.com")
 
 	def test_search1(self):
-		bd=BaiduPage(self.driver)
-		bd.input_text('python')
-		bd.button_click()
+		self.driver.find_element_by_id("kw").send_keys('python')
+		self.driver.find_element_by_id('su').click()
 
 	def tearDown(self):
 		self.driver.quit()
