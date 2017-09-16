@@ -5,7 +5,7 @@ import time
 class BaiDu(unittest.TestCase):
 
 	def setUp(self):
-		self.driver=webdriver.Firefox()
+		self.driver=webdriver.Chrome()
 		self.driver.maximize_window()
 		self.driver.get("http://www.baidu.com")
 
