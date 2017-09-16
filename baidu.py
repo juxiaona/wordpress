@@ -1,5 +1,6 @@
 from selenium import webdriver
 import unittest
+import time
 
 class BaiDu(unittest.TestCase):
 
@@ -11,6 +12,8 @@ class BaiDu(unittest.TestCase):
 	def test_search1(self):
 		self.driver.find_element_by_id("kw").send_keys('python')
 		self.driver.find_element_by_id('su').click()
+		time.sleep(2)
+
 
 	def tearDown(self):
 		self.driver.quit()
