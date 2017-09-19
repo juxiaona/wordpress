@@ -1,0 +1,156 @@
+1505631049227	geckodriver	INFO	Listening on 127.0.0.1:58231
+1505631051301	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505631051761	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631052950	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505631060459	Marionette	INFO	Listening on port 58249
+1505631060468	Marionette	INFO	Listening on port 58249
+1505631060944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505631061000	Marionette	DEBUG	loaded listener.js
+1505631061360	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505631061797	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505631061797	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505631062389	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631062545	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631062874	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631065524	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631065525	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631066265	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-admin/"
+1505631066762	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-admin/"
+1505631066945	Marionette	INFO	New connections will no longer be accepted
+1505631082744	geckodriver	INFO	Listening on 127.0.0.1:58536
+1505631084804	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505631085127	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631086575	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631091580	Marionette	INFO	Listening on port 58557
+1505631091775	Marionette	INFO	Listening on port 58557
+1505631092315	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505631092362	Marionette	DEBUG	loaded listener.js
+1505631092711	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505631093193	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505631093193	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505631093260	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631093272	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631093520	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631096012	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631096014	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631096056	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631096072	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631098168	Marionette	INFO	New connections will no longer be accepted
+1505631098614	geckodriver	INFO	Listening on 127.0.0.1:58702
+1505631100704	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505631101068	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631102187	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5072] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5072] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505631108609	Marionette	INFO	Listening on port 58723
+1505631108610	Marionette	INFO	Listening on port 58723
+1505631108681	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505631108747	Marionette	DEBUG	loaded listener.js
+1505631109100	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505631109552	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505631109553	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505631109610	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631109620	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631109874	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631112150	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631112150	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631112189	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631112197	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631114315	Marionette	INFO	New connections will no longer be accepted
+1505631114624	geckodriver	INFO	Listening on 127.0.0.1:58881
+1505631116700	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505631117030	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631118176	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631124319	Marionette	INFO	Listening on port 58900
+1505631124337	Marionette	INFO	Listening on port 58900
+1505631124631	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505631124682	Marionette	DEBUG	loaded listener.js
+1505631125015	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505631125636	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505631125636	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505631125698	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631125708	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631125948	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631128026	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631128027	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631128074	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631128083	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631130175	Marionette	INFO	New connections will no longer be accepted
+1505631131073	geckodriver	INFO	Listening on 127.0.0.1:59052
+1505631133179	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505631133506	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631134605	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631141536	Marionette	INFO	Listening on port 59071
+1505631141542	Marionette	INFO	Listening on port 59071
+1505631141664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505631141710	Marionette	DEBUG	loaded listener.js
+1505631142067	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505631142496	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505631142497	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505631142558	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631142569	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631142808	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631143245	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631143246	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631143276	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631143278	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631145348	Marionette	INFO	New connections will no longer be accepted
+1505631552613	geckodriver	INFO	Listening on 127.0.0.1:60651
+1505631554703	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505631555131	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631556430	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631561249	Marionette	INFO	Listening on port 60660
+1505631561276	Marionette	INFO	Listening on port 60660
+1505631562269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505631562318	Marionette	DEBUG	loaded listener.js
+1505631562667	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505631563129	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505631563129	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505631563475	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631563596	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631563884	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631566433	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631566433	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631566810	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-admin/"
+1505631666125	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-admin/"
+arting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505631637577	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631638938	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3876] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3876] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1505631645183	Marionette	INFO	Listening on port 60929
+1505631645227	Marionette	INFO	Listening on port 60929
+1505631645665	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505631645739	Marionette	DEBUG	loaded listener.js
+1505631646087	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505631646621	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505631646621	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505631646680	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631646686	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631646946	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631649745	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631649746	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/wordpress/wp-login.php"
+1505631650122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/wordpress/wp-admin/"
+1505631664565	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/wordpress/wp-admin/"
