@@ -13,19 +13,19 @@ class LoginPage():
 
 	def login(self,username,password):
 
-		self.dr.clear_element('id=>user_login')
-		self.dr.sendkeys('id=>user_login',username)
-		self.dr.clear_element('id=>user_pass')
-		self.dr.sendkeys('id=>user_pass', password)
-		self.dr.get_element("id=>wp-submit").click()
+		self.dr.element_clear('id','user_login')
+		self.dr.element_sendkeys('id','user_login',username)
+		self.dr.element_clear('id','user_pass')
+		self.dr.element_sendkeys('id','user_pass', password)
+		self.dr.element_click('id','wp-submit')
 
 	def get_login_success_text(self):
 
-		return self.dr.get_element_text('css=>#wp-admin-bar-my-account>a')
+		return self.dr.get_element_text('css','#wp-admin-bar-my-account>a')
 
 	def get_login_error_text(self):
 
-		return self.dr.get_element_text('id=>login_error')
+		return self.dr.get_element_text('id','login_error')
 
 	def get_login_success_url(self):
 		return self.dr.get_current_url()

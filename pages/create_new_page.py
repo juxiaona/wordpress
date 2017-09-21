@@ -12,28 +12,28 @@ class CreateNewPage():
 	def login_as_admin(self,username,password):
 
 		self.dr.open('http://127.0.0.1/wordpress/wp-login.php')
-		self.dr.clear_element('id=>user_login')
-		self.dr.sendkeys('id=>user_login',username)
-		self.dr.clear_element('id=>user_pass')
-		self.dr.sendkeys('id=>user_pass', password)
-		self.dr.get_element("id=>wp-submit").click()
+		self.dr.element_clear('id','user_login')
+		self.dr.element_sendkeys('id','user_login',username)
+		self.dr.element_clear('id','user_pass')
+		self.dr.element_sendkeys('id','user_pass', password)
+		self.dr.element_click('id','wp-submit')
 
 	def open_post_new(self):
 
-		url=self.dr.get_element_attribute('css=>.welcome-icon.welcome-write-blog', 'href')
+		url=self.dr.get_element_attribute('css','.welcome-icon.welcome-write-blog', 'href')
 		self.dr.open(url)
 
 	def set_title(self,title):
 
-		self.dr.sendkeys('id=>title', title)
+		self.dr.element_sendkeys('id','title',title)
 
 	def set_content(self,text):
 
-		self.dr.set_content('content_ifr', text)
+		self.dr.set_richtext('id','content_ifr',text)
 
 	def publish(self):
 
-		self.dr.click_element('id=>publish')
+		self.dr.element_click('id','publish')
 
 	def quit(self):
 
