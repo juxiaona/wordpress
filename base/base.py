@@ -201,7 +201,8 @@ class Base():
 
 	def send_file(self,by,css,filename):
 
-		self.element_sendkeys(by, css, filename)
+		self.wait_element(by, css)
+		self.get_element(by, css).send_keys(filename)
 
 
 
