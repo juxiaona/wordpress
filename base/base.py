@@ -1,7 +1,8 @@
-from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.keys import Keys
+import time
 
 
 class Base():
@@ -21,7 +22,7 @@ class Base():
 	def open(self,url):
 		'''打开网页'''
 		self.driver.get(url)
-		sleep(1)
+		time.sleep(1)
 
 	def refresh(self):
 		'''刷新页面'''
@@ -46,6 +47,21 @@ class Base():
 	def max_window(self):
 		'''窗口最大化'''
 		self.driver.maximize_window()
+
+	def current_handle(self):
+		'''获取当前句柄'''
+		return self.driver.current_window_handle
+
+	def all_handles(self):
+		'''获取全部句柄'''
+		return self.driver.window_handles
+
+	def switch_handle(self,h,all_h):
+		'''切换句柄'''
+		for i in all_h:
+			if i!=h:
+				self.driver.switch_to.window(i)
+
 
 	def get_element(self,by,css):
 		'''定位元素'''
@@ -75,7 +91,7 @@ class Base():
 					break;
 			except:
 				pass
-			sleep(1)
+			time.sleep(1)
 		else:
 			raise NameError("Please enter the correct targeting elements")
 
@@ -111,8 +127,14 @@ class Base():
 	def move_to_element(self,by,css):
 		'''鼠标悬停'''
 		self.wait_element(by,css)
-		elemnet=self.get_element(by,css)
-		ActionChains(self.driver).move_to_element(elemnet).perform()
+		element=self.get_element(by,css)
+		ActionChains(self.driver).move_to_element(element).perform()
+
+	def double_click(self,by,css):
+		'''鼠标双击'''
+		self.wait_element(by, css)
+		element=self.get_element(by, css)
+		ActionChains(self.driver).double_click(element).perform()
 
 	def select_element(self,by,css,value):
 		'''下拉框选择'''
@@ -151,7 +173,7 @@ class Base():
 
 	def set_scroll_foot(self):
 		'''窗口滚动条滚动到底部'''
-		sleep(1)
+		time.sleep(1)
 		if self.browser=='chrome':
 			js='document.body.scrollTop=10000'
 		if self.browser=='firefox':
@@ -160,7 +182,7 @@ class Base():
 
 	def set_scroll_top(self):
 		'''窗口滚动条滚动到顶部'''
-		sleep(1)
+		time.sleep(1)
 		if self.browser=='chrome':
 			js='document.body.scrollTop=0'
 		if self.browser=='firefox':
@@ -169,13 +191,13 @@ class Base():
 
 	def window_scroll_foot(self):
 		'''窗口滚动条滚动到底部'''
-		sleep(1)
+		time.sleep(1)
 		js='window.scrollTo(0,document.body.scrollHeight)'
 		self.driver.execute_script(js)
 
 	def window_scroll_top(self):
 		'''窗口滚动条滚动到顶部'''
-		sleep(1)
+		time.sleep(1)
 		js='window.scrollTo(0,0)'
 		self.driver.execute_script(js)
 
@@ -202,7 +224,47 @@ class Base():
 		self.wait_element(by, css)
 		self.get_element(by, css).send_keys(filename)
 	
+	def get_screenshot_as_file(self):
+		'''获取截图'''
+		now=time.strftime('%Y-%m-%d_%H_%M_')
+		path='./screenshot/'+now+'.jpg'
+		self.driver.get_screenshot_as_file(path)
 
+	def key_enter(self,by,css):
+		'''键盘回车'''
+		self.wait_element(by, css)
+		self.get_element(by, css).send_keys(Keys.ENTER)
+		
 
+	def remove_element_attribute(self,by,css,attribute):
+		'''去掉元素属性'''
+		if by=='id':
+			js ='document.getElementById("%s").removeAttribute("%s")' %(css,attribute)
+		elif by=='class':
+			js='document.getElementsByClassName("%s")[0].removeAttribute("%s")' %(css,attribute)
+		elif by=='name':
+			js='document.getElementsByName("%s")[0].removeAttribute("%s")' %(css,attribute)
+		elif by=='tag':
+			js='document.getElementsByTagName("%s")[0].removeAttribute("%s")' %(css,attribute)
+		else:
+			raise NameError("Please enter the correct targeting elements.")
+
+		self.driver.execute_script(js)
+
+	def change_element_attribute(self,by,css,attribute,value):
+		'''改变元素属性'''
+		if by=='id':
+			js ='document.getElementById("%s").%s="%s"' %(css,attribute,value)
+		elif by=='class':
+			js='document.getElementsByClassName("%s")[0].%s="%s"' %(css,attribute,value)
+		elif by=='name':
+			js='document.getElementsByName("%s")[0].%s="%s"' %(css,attribute,value)
+		elif by=='tag':
+			js='document.getElementsByTagName("%s")[0].%s="%s"' %(css,attribute,value)
+		else:
+			raise NameError("Please enter the correct targeting elements.")
+
+		self.driver.execute_script(js)
+		
 
 

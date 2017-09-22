@@ -22,8 +22,7 @@ class Test(unittest.TestCase):
 		sleep(2)
 		self.dr.set_date('class', 'react-datepicker__input', '2017-09-21')
 
-		self.dr.element_sendkeys('class', 'wrap-image-upload', '../data/1.jpg')
-		sleep(2)
+		self.dr.get_screenshot_as_file()
 
 
 
