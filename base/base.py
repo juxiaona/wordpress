@@ -47,6 +47,9 @@ class Base():
 	def max_window(self):
 		'''窗口最大化'''
 		self.driver.maximize_window()
+	def get_window_title(self):
+		'''获取当前窗口的title'''
+		return self.driver.title
 
 	def current_handle(self):
 		'''获取当前句柄'''
@@ -265,6 +268,24 @@ class Base():
 			raise NameError("Please enter the correct targeting elements.")
 
 		self.driver.execute_script(js)
+
+	def add_cookies(self,name,value):
+		'''添加cookies'''
+		self.driver.add_cookie({'name':name,'value':value})
+
+	def alert_accept(self):
+		'''弹窗确认'''
+		self.driver.switch_to.alert().accept()
+
+	def alter_dismiss(self):
+		'''弹窗取消'''
+		self.driver.switch_to.alert().dismiss()
+
+	def get_alter_text(self):
+		'''获取alter弹窗文本'''
+		return self.driver.switch_to.alert().text
+
+
 		
 
 
