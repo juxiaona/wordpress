@@ -28,7 +28,7 @@ class TestRunner():
 
 		fp.close()
 		'''发送邮件'''
-		mail=SendMail('smtp.163.com', 'ju_xiaona@163.com', 'jxn461028', 'juxiaona@xxkuaipao.com')
+		mail=SendMail('smtp.163.com', 'xxxxx', 'xxxxxx', 'xxxxxx')
 		mail.sendmail(filename)
 
 		
